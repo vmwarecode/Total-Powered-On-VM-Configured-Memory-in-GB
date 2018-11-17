@@ -1,0 +1,1 @@
+{"f14fb015-6c44-4d38-a51f-ea4f876579a2":{"resourceKinds":[{"resourceKindKey":"ClusterComputeResource","adapterKindKey":"VMWARE"}],"name":"Total Powered-On VM Configured Memory (GB)","formula":"sum(${adaptertype=VMWARE, objecttype=VirtualMachine, metric=mem|guest_provisioned, depth=2, where=\"sys|poweredOn==1\"})/1048576","description":""}}
