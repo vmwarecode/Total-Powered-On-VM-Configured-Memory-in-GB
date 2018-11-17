@@ -1,0 +1,1 @@
+# Total-Powered-On-VM-Configured-Memory-in-GB
